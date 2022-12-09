@@ -37,46 +37,31 @@
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+      <a href="index.html" class=" d-flex align-items-center  me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-camera"></i>
-        <h1>PhotoFolio</h1>
+        <img id="logo" src="assets/img/logophb.png" alt="">
+        <!-- <i class="bi bi-camera"></i>
+        <h1>PhotoFolio</h1> -->
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="gallery.html">Nature</a></li>
-              <li><a href="gallery.html">People</a></li>
-              <li><a href="gallery.html">Architecture</a></li>
-              <li><a href="gallery.html">Animals</a></li>
-              <li><a href="gallery.html">Sports</a></li>
-              <li><a href="gallery.html">Travel</a></li>
-              <li class="dropdown"><a href="#"><span>Sub Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Sub Menu 1</a></li>
-                  <li><a href="#">Sub Menu 2</a></li>
-                  <li><a href="#">Sub Menu 3</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="feature.html">Features</a></li>
+          <li><a href="backdrops.html">Backdrops</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+          <li><a href="contact.html" class="active">BOOK NOW</a></li>
+          
         </ul>
       </nav><!-- .navbar -->
 
       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
@@ -94,8 +79,9 @@
       <div class="container position-relative">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2>Contact</h2>
-            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+            <h2 class="page-title">Contact</h2>
+            <p>We would love an opportunity to help take your event to the next level. 
+              Please submit your information below and we’ll be in touch within 24 hours!</p>
 
           </div>
         </div>
@@ -145,18 +131,45 @@
           <div class="col-lg-9">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
-                <div class="col-md-6 form-group">
+                <div class="col-md-12 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
+                <div class="col-md-12 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
+                <div class="col-md-12 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Re-enter Email Address" required>
+                </div>
+                <div class="col-md-12 form-group mt-3 mt-md-0">
+                 <input type="text" name="phone" class="form-control" id="phone" placeholder="Your Phone Number" required>
+                </div>
+                <div class="col-md-12 form-group mt-3 mt-md-0">
+                  <input type="date" name="event-date" class="form-control" id="event-date" placeholder="Event Date" required>
+                 </div>
+                <div class="col-md-12 form-group mt-3 mt-md-0">
+                 <input type="text" name="event-type" class="form-control" id="event-type" placeholder="Event Type" required>
+                </div>
+                <div class="col-md-12 form-group mt-3 mt-md-0">
+                  <input type="text" name="event-location" class="form-control" id="event-location" placeholder="Event Location" required>
+                 </div>
+                 <div class="col-md-12 form-group mt-3 mt-md-0">
+                  <label for="cars">How did you hear about us?</label><br/>
+                  <select name="platform" id="platform" class="form-control">
+                    <option value="volvo">Facebook</option>
+                    <option value="saab">Twitter</option>
+                    <option value="opel">Instagram</option>
+                    <option value="audi">Linkedin</option>
+                  </select>
+                 </div>
+                 <div class="col-md-12 form-group mt-3 mt-md-0">
+                  <input type="text" name="event-duration" class="form-control" id="event-duration" placeholder="Event Duration" required>
+                 </div>
               </div>
               <div class="form-group mt-3">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Please provide any additional comments" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
