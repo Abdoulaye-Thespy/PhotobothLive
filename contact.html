@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>PhotoFolio Bootstrap Template - Contact</title>
+  <title>PhotoBoth</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -79,7 +79,7 @@
       <div class="container position-relative">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2 class="page-title">Contact</h2>
+            <h2 class="page-title">Contact Us</h2>
             <p>We would love an opportunity to help take your event to the next level. 
               Please submit your information below and we’ll be in touch within 24 hours!</p>
 
@@ -132,51 +132,84 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-12 form-group">
+                  <label for="cars">Full Name *</label><br/>
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
+                  <label for="cars">Email *</label><br/>
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
+                  <label for="cars">Re-Enter Email *</label><br/>
                   <input type="email" class="form-control" name="email" id="email" placeholder="Re-enter Email Address" required>
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
+                  <label for="cars">Phone number</label><br/>
+                  <select name="platform" id="platform" class="form-control">
+                    <option value="volvo">Phone</option>
+                    <option value="saab">Email</option>
+                  </select>
+                 </div>
+                <div class="col-md-12 form-group mt-3 mt-md-0">
+                  <label for="cars">Preferred Contact Method *</label><br/>
                  <input type="text" name="phone" class="form-control" id="phone" placeholder="Your Phone Number" required>
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
+                  <label for="cars">How did you hear about us? *</label><br/>
                   <input type="date" name="event-date" class="form-control" id="event-date" placeholder="Event Date" required>
                  </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
+                  <label for="cars">Event Location (City, Venue Name or Type) *</label><br/>
                  <input type="text" name="event-type" class="form-control" id="event-type" placeholder="Event Type" required>
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
+                  <label for="cars">Preferred Contact Method?</label><br/>
                   <input type="text" name="event-location" class="form-control" id="event-location" placeholder="Event Location" required>
                  </div>
                  <div class="col-md-12 form-group mt-3 mt-md-0">
-                  <label for="cars">How did you hear about us?</label><br/>
+                  <label for="cars">Event Type *</label><br/>
                   <select name="platform" id="platform" class="form-control">
-                    <option value="volvo">Facebook</option>
-                    <option value="saab">Twitter</option>
-                    <option value="opel">Instagram</option>
-                    <option value="audi">Linkedin</option>
+                    <option value="audi">Birthday</option>
+                    <option value="audi">Corporate</option>
+                    <option value="volvo">Design</option>
+                    <option value="volvo">Event</option>
+                    <option value="saab">Family</option>
+                    <option value="opel">Party</option>
+                    <option value="audi">Social</option>
+                    <option value="audi">Wedding</option>
+                    <option value="audi">Other</option>
                   </select>
                  </div>
                  <div class="col-md-12 form-group mt-3 mt-md-0">
-                  <input type="text" name="event-duration" class="form-control" id="event-duration" placeholder="Event Duration" required>
+                  <label for="cars">How many hours will you need a booth? *</label><br/>
+                  <select name="platform" id="platform" class="form-control">
+                    <option value="audi">0</option>
+                    <option value="audi">1</option>
+                    <option value="volvo">2</option>
+                    <option value="volvo">3</option>
+                    <option value="saab">4</option>
+                    <option value="opel">5</option>
+                    <option value="audi">6</option>
+                    <option value="audi">7</option>
+                    <option value="audi">8</option>
+                    <option value="audi">9</option>
+                  </select>
                  </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <label for="cars">Photo booth start and end time *</label><br/>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="ie: 6pm-10pm" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Please provide any additional comments" required></textarea>
+                <label for="cars">Please provide any additional comments</label><br/>
+                <textarea class="form-control" name="message" rows="5" placeholder="Your Comment" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Book Now</button></div>
             </form>
           </div><!-- End Contact Form -->
 
