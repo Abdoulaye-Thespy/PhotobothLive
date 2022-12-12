@@ -1346,3 +1346,23 @@ font-weight: bold;
 .gy-4 {
   margin-bottom: 20px;
 }
+
+.faq-title {
+  font-size: 25px !important;
+  margin-top: 15px;
+}
+.card-body h5,
+.card-body p,
+.card-header {
+  color: black !important;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+}
