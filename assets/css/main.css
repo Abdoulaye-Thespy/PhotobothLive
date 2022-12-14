@@ -19,7 +19,7 @@
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #27a776;
+  --color-primary: #CBB26B;
   --color-secondary: #161718;
 }
 
@@ -34,7 +34,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color: #000;
+  background-color: #393e46;
 }
 
 a {
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #32cf93;
+  color: #CBB26B;
   text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ h6 {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #5bd9a9;
+  background: #CBB26B;
   margin: 4px 10px;
 }
 
@@ -134,7 +134,7 @@ h6 {
 }
 
 .page-header .cta-btn:hover {
-  background: #2cbc85;
+  background: #f4b507;
 }
 
 /*--------------------------------------------------------------
@@ -161,7 +161,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: #CBB26B;;
   color: #fff;
 }
 
@@ -1260,7 +1260,8 @@ h6 {
   font-size: 18px;
 }
 
-.hero .btn-get-started {
+.hero .btn-get-started,
+.btn-started {
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 14px;
@@ -1275,7 +1276,7 @@ h6 {
 }
 
 .hero .btn-get-started:hover {
-  background: #2cbc85;
+  background: #e9ae0e;
 }
 
 @media (max-width: 768px) {
@@ -1365,4 +1366,21 @@ font-weight: bold;
 
 .card {
   text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+.header {
+  background-color: #393e46;
+}
+.myhero {
+  padding-top: 25px;
+}
+
+.btn-started:hover {
+  color: #fff;
+  background-color: #eaaf0e;
+}
+
+.card {
+
 }
