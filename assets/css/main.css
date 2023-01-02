@@ -1293,6 +1293,7 @@ h6 {
   padding: 30px 0;
   font-size: 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: #000;
 }
 
 .footer .copyright {
@@ -1370,7 +1371,7 @@ font-weight: bold;
 }
 
 .header {
-  background-color: #393e46;
+  background-color: #000;
 }
 .myhero {
   padding-top: 25px;
