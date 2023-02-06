@@ -318,7 +318,7 @@ h6 {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 30px 0;
+  padding: 0;
   background-color: #000;
 }
 
@@ -1313,7 +1313,7 @@ h6 {
 }
 
 #logo {
-  width: 150px;
+  width: 250px;
   object-fit: contain;
 }
 
