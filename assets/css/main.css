@@ -32,7 +32,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: var(--font-default);
+  /* font-family: var(--font-default); */
+  font-family: 'EB Garamond', serif;
   color: var(--color-default);
   background-color: #393e46;
 }
