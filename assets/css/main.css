@@ -35,7 +35,7 @@ body {
   /* font-family: var(--font-default); */
   font-family: 'EB Garamond', serif;
   color: var(--color-default);
-  background-color: #F8C8DC;
+  background-color: #4d4d4d;
 }
 
 a {
@@ -749,10 +749,13 @@ h6 {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  background-color: #CBB26B;
+  padding: 5px;
 }
 
 .gallery .gallery-item img {
   transition: 0.3s;
+  border-radius: 10px;
 }
 
 .gallery .gallery-links {
@@ -1303,11 +1306,14 @@ h6 {
   padding: 30px 0;
   font-size: 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
-  background-color: #4d4d4d;
+  background-color: #000;
 }
 
 .footer .copyright {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center; 
+  /* align-items: center; */
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -1333,8 +1339,8 @@ h6 {
 }
 
 .images-feature {
-  width: 400px;
   height: 400px;
+  width: 400px;
   border-radius: 5px;
 }
 
@@ -1382,15 +1388,15 @@ font-weight: bold;
 }
 
 .header {
-  background-color:#4d4d4d;
+  background-color:#000;
 }
 .myhero {
   padding: 25px;
-  background-color: #393e46;
+  /* background-color: #4d4d4d; */
   width: 80%;
   margin: auto;
   border-radius: 10px;
-  opacity: 0.85;
+  opacity: 0.95;
 }
 
 .btn-started:hover {
@@ -1398,15 +1404,58 @@ font-weight: bold;
   background-color: #eaaf0e;
 }
 
-.card {
-
-}
-
 #main {
   padding-top: 120px;
 }
 
 .subtitle {
-  font-size: 22px !important;
+  font-size: 30px !important;
   color: #fff !important;
+  font-weight: bold;
+}
+
+.mycaption {
+  margin-top: 13px;
+  text-align: center;
+  color: #000;;
+}
+
+.call-to-action {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 18px;
+  display: inline-block;
+  padding: 12px 60px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  color: #fff;
+  background: var(--color-primary);
+  margin: 15px;
+}
+
+.feature {
+  color: var(--color-primary);
+}
+.adress-footer {
+  list-style: none;
+  font-size: 20px;
+}
+
+.images-feature h1 {
+  font-size: 15px;
+}
+
+.images-feature p {
+  font-size: 10px !important;
+}
+
+.feature-subtitle {
+  font-size: 22px !important;
+  font-weight: normal;
+}
+
+.feature-heading {
+  text-align: center;
 }
