@@ -1478,4 +1478,7 @@ font-weight: bold;
  .footer .copyright {
    flex-direction: column;
  }
+ #packages-table {
+  font-size: 10px !important;
+}
 }
