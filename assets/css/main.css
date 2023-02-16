@@ -1336,6 +1336,7 @@ h6 {
   height: 400px;
   width: 400px;
   border-radius: 5px;
+  margin: auto;
 }
 
 .images-feature img {
@@ -1387,7 +1388,7 @@ font-weight: bold;
 .myhero {
   padding: 25px;
   /* background-color: #4d4d4d; */
-  width: 80%;
+  width: 90%;
   margin: auto;
   border-radius: 10px;
   opacity: 0.95;
@@ -1448,10 +1449,14 @@ font-weight: bold;
 .feature-subtitle {
   font-size: 22px !important;
   font-weight: normal;
+  width: 400px;
+  margin: auto;
+  text-align: center;
 }
 
 .feature-heading {
   text-align: center;
+  margin: 0 0 -10px 0;
 }
 
 
