@@ -110,12 +110,6 @@ h6 {
   font-family: var(--font-secondary);
 }
 
-@media (max-width: 768px) {
-  .page-header h2 {
-    font-size: 36px;
-  }
-}
-
 .page-header p {
   color: rgba(255, 255, 255, 0.8);
 }
@@ -1409,7 +1403,7 @@ font-weight: bold;
 }
 
 .subtitle {
-  font-size: 30px !important;
+  font-size: 1.2rem !important;
   color: #fff !important;
   font-weight: bold;
 }
@@ -1458,4 +1452,26 @@ font-weight: bold;
 
 .feature-heading {
   text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .page-header h2 {
+    font-size: 36px;
+  }
+  .hero {
+    padding: 140px 0 0px 0;
+  }
+  .hero .btn-get-started {
+    padding: 10px 15px;
+  }
+ .call-to-action {
+  padding: 10px 5px;
+ }
+ .page-header {
+   padding: 10px;
+ }
+ .footer .copyright {
+   flex-direction: column;
+ }
 }
