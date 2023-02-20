@@ -50,17 +50,5 @@ const validateinputs = () => {
  const hours = document.getElementById("hours").value;
  const time = document.getElementById("time").value;
  const message = document.getElementById("message").value;
-
- console.log(name);
- console.log(method);
- console.log(email);
- console.log(phone);
- console.log(eventLocation);
- console.log(platform);
- console.log(eventDate);
- console.log(eventType);
- console.log(hours);
- console.log(time);
- console.log(message);
  submitForm (name, email, method, phone, eventLocation, platform, eventDate, eventType, hours, time, message);
 }
