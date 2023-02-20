@@ -144,13 +144,13 @@
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="cars">Re-Enter Email *</label><br/>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Re-enter Email Address" required>
+                  <input type="email" class="form-control" name="email" id="email2" placeholder="Re-enter Email Address" required>
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
                 <label for="cars">Preferred Contact Method *</label><br/>
-                  <select name="platform" id="platform" class="form-control">
-                    <option value="volvo">Phone</option>
-                    <option value="saab">Email</option>
+                  <select name="method" id="method" class="form-control">
+                    <option value="Phone">Phone</option>
+                    <option value="Email">Email</option>
                   </select>
                  </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
@@ -159,19 +159,19 @@
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="cars">Event Location (City, Venue Name or Type) *</label><br/>
-                 <input type="text" name="event-type" class="form-control" id="event-type" placeholder="Event Location" required>
+                 <input type="text" name="event-location" class="form-control" id="event-location" placeholder="Event Location" required>
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="cars">How did you hear about us?</label><br/>
                   <select name="platform" id="platform" class="form-control">
-                    <option value="audi">Unknown</option>
-                    <option value="audi">Google</option>
-                    <option value="audi">Facebook</option>
-                    <option value="volvo">Instagram</option>
-                    <option value="volvo">The Knot</option>
-                    <option value="saab">Vendor Referral</option>
-                    <option value="opel">Client Referral</option>
-                    <option value="audi">Other</option>
+                    <option value="Unknown">Unknown</option>
+                    <option value="Google">Google</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="The Knot">The Knot</option>
+                    <option value="Vendor Referral">Vendor Referral</option>
+                    <option value="Client Referral">Client Referral</option>
+                    <option value="Other">Other</option>
                   </select>
                  </div>
                  <div class="col-md-12 form-group mt-3 mt-md-0">
@@ -180,48 +180,48 @@
                  </div>
                  <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="cars">Event Type *</label><br/>
-                  <select name="platform" id="platform" class="form-control">
-                    <option value="audi">Birthday</option>
-                    <option value="audi">Corporate</option>
-                    <option value="volvo">Design</option>
-                    <option value="volvo">Event</option>
-                    <option value="saab">Family</option>
-                    <option value="opel">Party</option>
-                    <option value="audi">Social</option>
-                    <option value="audi">Wedding</option>
-                    <option value="audi">Other</option>
+                  <select name="event-type" id="event-type" class="form-control">
+                    <option value="Birthday">Birthday</option>
+                    <option value="Corporate">Corporate</option>
+                    <option value="Design">Design</option>
+                    <option value="Event">Event</option>
+                    <option value="Family">Family</option>
+                    <option value="Party">Party</option>
+                    <option value="Social">Social</option>
+                    <option value="Wedding">Wedding</option>
+                    <option value="Other">Other</option>
                   </select>
                  </div>
                  <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="cars">How many hours will you need a booth? *</label><br/>
-                  <select name="platform" id="platform" class="form-control">
-                    <option value="audi">0</option>
-                    <option value="audi">1</option>
-                    <option value="volvo">2</option>
-                    <option value="volvo">3</option>
-                    <option value="saab">4</option>
-                    <option value="opel">5</option>
-                    <option value="audi">6</option>
-                    <option value="audi">7</option>
-                    <option value="audi">8</option>
-                    <option value="audi">9</option>
+                  <select name="hours" id="hours" class="form-control">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
                   </select>
                  </div>
               </div>
               <div class="form-group mt-3">
                 <label for="cars">Photo booth start and end time *</label><br/>
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="ie: 6pm-10pm" required>
+                <input type="text" class="form-control" name="time" id="time" placeholder="ie: 6pm-10pm" required>
               </div>
               <div class="form-group mt-3">
                 <label for="cars">Please provide any additional comments</label><br/>
-                <textarea class="form-control" name="message" rows="5" placeholder="Your Comment" required></textarea>
+                <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your Comment" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit" onclick="submitForm()">Book Now</button></div>
+              <div class="text-center"><button type="submit" onclick="validateinputs()">Book Now</button></div>
             </form>
           </div><!-- End Contact Form -->
 
