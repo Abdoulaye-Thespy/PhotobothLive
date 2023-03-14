@@ -132,38 +132,39 @@
         <div class="row justify-content-center mt-4">
 
           <div class="col-lg-9">
+            <h3 id="warning">Some fields are required</h3>
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-12 form-group">
                   <label for="cars">Full Name *</label><br/>
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control form-controls" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="cars">Email *</label><br/>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control form-controls" name="email" id="email" placeholder="Your Email" required>
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="cars">Re-Enter Email *</label><br/>
-                  <input type="email" class="form-control" name="email" id="email2" placeholder="Re-enter Email Address" required>
+                  <input type="email" class="form-control form-controls" name="email" id="email2" placeholder="Re-enter Email Address" required>
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
                 <label for="cars">Preferred Contact Method *</label><br/>
-                  <select name="method" id="method" class="form-control">
+                  <select name="method" id="method" class="form-control form-controls">
                     <option value="Phone">Phone</option>
                     <option value="Email">Email</option>
                   </select>
                  </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="cars">Phone number</label><br/>
-                 <input type="text" name="phone" class="form-control" id="phone" placeholder="Your Phone Number" required>
+                 <input type="text" name="phone" class="form-control form-controls" id="phone" placeholder="Your Phone Number" required>
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="cars">Event Location (City, Venue Name or Type) *</label><br/>
-                 <input type="text" name="event-location" class="form-control" id="event-location" placeholder="Event Location" required>
+                 <input type="text" name="event-location" class="form-control form-controls" id="event-location" placeholder="Event Location" required>
                 </div>
                 <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="cars">How did you hear about us?</label><br/>
-                  <select name="platform" id="platform" class="form-control">
+                  <select name="platform" id="platform" class="form-control form-controls">
                     <option value="Unknown">Unknown</option>
                     <option value="Google">Google</option>
                     <option value="Facebook">Facebook</option>
@@ -176,11 +177,11 @@
                  </div>
                  <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="cars">Event Date *</label><br/>
-                  <input type="date" name="event-date" class="form-control" id="event-date" placeholder="Event Date" required>
+                  <input type="date" name="event-date" class="form-control form-controls" id="event-date" placeholder="Event Date" required>
                  </div>
                  <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="cars">Event Type *</label><br/>
-                  <select name="event-type" id="event-type" class="form-control">
+                  <select name="event-type" id="event-type" class="form-control form-controls">
                     <option value="Birthday">Birthday</option>
                     <option value="Corporate">Corporate</option>
                     <option value="Design">Design</option>
@@ -194,7 +195,7 @@
                  </div>
                  <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="cars">How many hours will you need a booth? *</label><br/>
-                  <select name="hours" id="hours" class="form-control">
+                  <select name="hours" id="hours" class="form-control form-controls">
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -210,7 +211,7 @@
               </div>
               <div class="form-group mt-3">
                 <label for="cars">Photo booth start and end time *</label><br/>
-                <input type="text" class="form-control" name="time" id="time" placeholder="ie: 6pm-10pm" required>
+                <input type="text" class="form-control form-controls" name="time" id="time" placeholder="ie: 6pm-10pm" required>
               </div>
               <div class="form-group mt-3">
                 <label for="cars">Please provide any additional comments</label><br/>

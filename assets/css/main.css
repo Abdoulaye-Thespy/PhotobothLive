@@ -1482,3 +1482,9 @@ font-weight: bold;
   font-size: 10px !important;
 }
 }
+
+#warning {
+  color: red;
+  text-align: center;
+  display: none;
+}
